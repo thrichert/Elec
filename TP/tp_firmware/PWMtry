@@ -1,0 +1,41 @@
+/* 
+ * File:   main.c
+ * Author: bocal
+ *
+ * Created on April 17, 2017, 7:34 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <xc.h>
+
+/*
+ * 
+ */
+
+void    __attribute__((vector(_TIMER_2_VECTOR), interrupt(IPL1AUTO)))T2(void)
+{
+    TRISFbits.TRISF1 = 0; //set F1 register as OUTPUT
+    LATFbits.LATF1 = 0; //set F1 register at LOW
+    TRISDbits.TRISD8 = 1; // set D8 register as INPUT
+
+}
+
+int     main(int argc, char** argv) {
+
+    __builtin_disable_interrupts();
+    PR2 = 32000;
+    OC1RS = 16000;
+    OC1R = 8000;
+    IEC0bits.T2IE = 1;
+    IEC0bits.OC1IE = 1;
+    OC1CONbits.OCM = 0b110;
+    T2CONbits.TCKPS = 4;
+    T2CONbits.TON = 1;
+    __builtin_enable_interrupts();
+
+    while (1);
+
+    return (EXIT_SUCCESS);
+}
+

@@ -1,0 +1,57 @@
+
+#include <xc.h>
+#include "main.h"
+#include <sys/attribs.h>
+
+
+void __attribute__((__interrupt__, no_auto_psv)) marchebatard(void)
+{
+
+        TRISFbits.TRISF1 = !TRISFbits.TRISF1;
+
+}
+
+int main(void) {
+
+u8  status;
+u16  full;
+
+T2CON = 0x0; // Stops the Timer1 and resets the control register
+TMR2 = 0x0; // Clear timer register
+T2CON = 0x0040; // Set prescaler 1:16, internal clock, 16bits
+PR2 = 0xFFFF; // Load period register (to 62500 ?)
+
+
+IEC0bits.INT1IE = 1; //Interrupt Enable Control bit (cf page 15 Input Capture section)
+IFS0bits.INT1IF = 0;
+
+
+T2CONSET = 0x8000;
+TRISFbits.TRISF1 = 0;
+LATFbits.LATF1 = 0;
+status = 0;
+full = 62500;
+while (1) {
+    if (TMR2 > full)
+        {
+             LATFbits.LATF1 = !LATFbits.LATF1;
+            TMR2 = 1;
+        }
+        if (!PORTDbits.RD8 && !status)
+        {
+            if (full > 7500)
+                full /= 2;
+            else
+               full = 62500;
+            status = 1;
+        }
+        else if (PORTDbits.RD8)
+            status = 0;
+
+    }
+    return (EXIT_SUCCESS);
+}
+
+
+
+ 
