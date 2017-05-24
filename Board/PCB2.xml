@@ -1,0 +1,97 @@
+<?xml version = "1.0" ?>
+<?xml-stylesheet type="text/xsl" href="PCB2.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW Designator CDATA #IMPLIED>
+  <!ATTLIST ROW Value CDATA #IMPLIED>
+  <!ATTLIST ROW Quantity CDATA #IMPLIED>
+  <!ATTLIST ROW Description CDATA #IMPLIED>
+  <!ATTLIST ROW RefFournisseur CDATA #IMPLIED>
+  <!ATTLIST ROW LibRef CDATA #IMPLIED>
+  <!ATTLIST ROW RefFabricant CDATA #IMPLIED>
+  <!ATTLIST ROW Footprint CDATA #IMPLIED>
+  <!ATTLIST ROW Fournisseur CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="Designator" Caption="Designator" Index="0" BandIndex="0" RowIndex="0" ColIndex="0" Width="151"></COLUMN>
+    <COLUMN Name="Value" Caption="Value" Index="1" BandIndex="0" RowIndex="0" ColIndex="1" Width="66"></COLUMN>
+    <COLUMN Name="Quantity" Caption="Quantity" Index="2" BandIndex="0" RowIndex="0" ColIndex="2" Width="64"></COLUMN>
+    <COLUMN Name="Description" Caption="Description" Index="3" BandIndex="0" RowIndex="0" ColIndex="3" Width="307"></COLUMN>
+    <COLUMN Name="RefFournisseur" Caption="RefFournisseur" Index="4" BandIndex="0" RowIndex="0" ColIndex="4" Width="89"></COLUMN>
+    <COLUMN Name="LibRef" Caption="LibRef" Index="5" BandIndex="0" RowIndex="0" ColIndex="5" Width="57"></COLUMN>
+    <COLUMN Name="RefFabricant" Caption="RefFabricant" Index="6" BandIndex="0" RowIndex="0" ColIndex="6" Width="80"></COLUMN>
+    <COLUMN Name="Footprint" Caption="Footprint" Index="7" BandIndex="0" RowIndex="0" ColIndex="7" Width="99"></COLUMN>
+    <COLUMN Name="Fournisseur" Caption="Fournisseur" Index="8" BandIndex="0" RowIndex="0" ColIndex="8" Width="57"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW Designator="C1_EV, C1_MOT, C2_EV, C2_MOT, C14, C15" Value="100n" Quantity="6" Description="MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, AVX  08053C104KAT2A  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 25 V, &#177; 10&#37;, X7R" RefFournisseur="1856422, 1856422, 1856422, 1856422, 1856422, 1740665" LibRef="Cap" RefFabricant="MCSH21B104K100CT, MCSH21B104K100CT, MCSH21B104K100CT, MCSH21B104K100CT, MCSH21B104K100CT, 08053C104KAT2A" Footprint="CAP 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C3, C4, C5, C6, C7, C8, C13, C18_S1, C18_S2, C21" Value="100n" Quantity="10" Description="MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH" RefFournisseur="1856422" LibRef="Cap" RefFabricant="MCSH21B104K100CT" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C9, C10" Value="22pf" Quantity="2" Description="Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 22 pF, 50 V, &#177; 5&#37;, C0G / NP0" RefFournisseur="2497023" LibRef="Cap" RefFabricant="0805N220J500CT" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C11, C12" Value="27pf" Quantity="2" Description="Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 27 pF, 50 V, &#177; 5&#37;, C0G / NP0" RefFournisseur="2497027" LibRef="Cap" RefFabricant="0805N270J500CT" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C16" Value="10u" Quantity="1" Description="MURATA  GRM21BR61C106KE15L  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 10 &#181;F, 16 V, &#177; 10&#37;, X5R, S&#233;rie GRM" RefFournisseur="1762635" LibRef="Cap" RefFabricant="GRM21BR61C106KE15L" Footprint="CAP 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C17" Value="47u" Quantity="1" Description="Condensateur c&#233;ramique multicouche CMS, 1210 &#91;3225 Metric&#93;, 47 &#181;F, 16 V, &#177; 20&#37;, X5R, S&#233;rie GRM" RefFournisseur="1572639" LibRef="Cap" RefFabricant="C1206C476M8PACTU" Footprint="CAP 1210/3225 - 2.5MM" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C19_S1, C19_S2" Value="4.7u" Quantity="2" Description="WALSIN  0603X475K6R3CT  Condensateur c&#233;ramique multicouche CMS, 0603 &#91;1608 Metric&#93;, 4.7 &#181;F, 6.3 V, &#177; 10&#37;, X5R" RefFournisseur="2496930" LibRef="Cap" RefFabricant="0603X475K6R3CT" Footprint="CAP 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="C20" Value="4.7u" Quantity="1" Description="Condensateur tantale CMS, 4.7 &#181;F, 10 V, S&#233;rie T491, &#177; 10&#37;" RefFournisseur="1457427" LibRef="Cap Pol2" RefFabricant="T491A475K010AT" Footprint="CAP POL 1206/3216 - 1.2MM" Fournisseur="Farnell"></ROW>
+    <ROW Designator="CB1, CB2, CB3, CB4" Value="" Quantity="4" Description="Circuit Breaker" RefFournisseur="" LibRef="Circuit Breaker" RefFabricant="" Footprint="JUMPER PAD" Fournisseur=""></ROW>
+    <ROW Designator="COM1" Value="" Quantity="1" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" RefFournisseur="148751" LibRef="Header 8" RefFabricant="7-215460-8" Footprint="7-215460-8" Fournisseur="Farnell"></ROW>
+    <ROW Designator="D1" Value="" Quantity="1" Description="LED, Bleu, CMS, 0.8mm x 1.6mm, 5 mA, 2.9 V, 470 nm" RefFournisseur="1908050" LibRef="LED2" RefFabricant="LNJ926W8CRA" Footprint="LED 0603/1608 BLUE" Fournisseur="Farnell"></ROW>
+    <ROW Designator="D2" Value="" Quantity="1" Description="LED, Ambre, CMS, 0.8mm x 1.1mm, 5 mA, 1.95 V, 590 nm" RefFournisseur="1908055" LibRef="LED2" RefFabricant="LNJ437W84RA" Footprint="LED 0603/1608 BLUE" Fournisseur="Farnell"></ROW>
+    <ROW Designator="D3" Value="" Quantity="1" Description="LED, Ambre, CMS, 0.8mm x 1.1mm, 5 mA, 1.95 V, 590 nm" RefFournisseur="1908055" LibRef="LED2" RefFabricant="LNJ437W84RA" Footprint="LED 0603/1608 BLUE" Fournisseur="Farnell"></ROW>
+    <ROW Designator="D4" Value="" Quantity="1" Description="LED, Bleu, CMS, 0.8mm x 1.6mm, 5 mA, 2.9 V, 470 nm" RefFournisseur="1908050" LibRef="LED2" RefFabricant="LNJ926W8CRA" Footprint="LED 0603/1608 BLUE" Fournisseur="Farnell"></ROW>
+    <ROW Designator="JS1" Value="" Quantity="1" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" RefFournisseur="148751" LibRef="Header 8" RefFabricant="7-215460-8" Footprint="7-215460-8" Fournisseur="Farnell"></ROW>
+    <ROW Designator="JS2" Value="" Quantity="1" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" RefFournisseur="148751" LibRef="Header 8" RefFabricant="7-215460-8" Footprint="7-215460-8" Fournisseur="Farnell"></ROW>
+    <ROW Designator="JS3_S1, JS3_S2" Value="" Quantity="2" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" RefFournisseur="7-215460-8" LibRef="Header 8" RefFabricant="" Footprint="7-215464-8" Fournisseur="Farnell"></ROW>
+    <ROW Designator="L1" Value="3.3UH" Quantity="1" Description="BOURNS  SRN6045-3R3Y.  INDUCTOR, SHIELDED, 3.3UH, 5A, SMD" RefFournisseur="2144137" LibRef="Inductor" RefFabricant="SRN6045-3R3Y" Footprint="SRN6045-3R3Y" Fournisseur="Farnell"></ROW>
+    <ROW Designator="LED1" Value="" Quantity="1" Description="PICOLED, Rouge, Vert, Bleu, CMS, Rectangulaire, R 5mA, G 5mA, B 5mA" RefFournisseur="2507558RL" LibRef="LED_Red_Blue_Green" RefFabricant="SMLP36RGB2W3R" Footprint="SMLP36" Fournisseur="Farnell"></ROW>
+    <ROW Designator="P1_EV, P1_MOT" Value="" Quantity="2" Description="Header, 2-Pin" RefFournisseur="" LibRef="Header 2" RefFabricant="" Footprint="HDR1X2" Fournisseur=""></ROW>
+    <ROW Designator="P2_EV, P2_MOT" Value="" Quantity="2" Description="WURTH ELEKTRONIK  61300611121  Connecteur carte-&#224;-carte, Vertical, 2.54 mm, 6 Contact&#40;s&#41;, Embase, S&#233;rie WR-PHD, Traversant" RefFournisseur="2356158" LibRef="Header 3H" RefFabricant="61300611121" Footprint="HDR1X3" Fournisseur="Farnell"></ROW>
+    <ROW Designator="P3" Value="" Quantity="1" Description="Header, 6-Pin" RefFournisseur="2356158" LibRef="Header 6" RefFabricant="61300611121" Footprint="HDR1X6" Fournisseur="Farnell"></ROW>
+    <ROW Designator="P4" Value="" Quantity="1" Description="Header, 2-Pin" RefFournisseur="" LibRef="Header 2" RefFabricant="" Footprint="HDR1X2" Fournisseur=""></ROW>
+    <ROW Designator="Q1, Q2, Q3, Q4" Value="" Quantity="4" Description="Transistor MOSFET, Canal N, 200 mA, 60 V, 2.7 ohm, 10 V, 1.2 V" RefFournisseur="2357125" LibRef="MOSFET-N" RefFabricant="BSS138AKA" Footprint="SOT-23" Fournisseur="Farnell"></ROW>
+    <ROW Designator="Q5" Value="" Quantity="1" Description="Transistor MOSFET, Canal P, -1.25 A, -60 V, 170 mohm, -10 V, 20 V" RefFournisseur="9846344" LibRef="MOSFET-P" RefFabricant="FDN5618P" Footprint="SOT-23_M" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R1, R2, R3, R4, R5, R7, R8, R9, R10, R24, R32" Value="10k" Quantity="11" Description="R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, YAGEO &#40;PHYCOMP&#41;  RC0805FR-0710KL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805" RefFournisseur="2331808, 2331808, 2331808, 2331808, 2331808, 2331808, 2331808, 2331808, 2331808, 9237755, 2331808" LibRef="Res2" RefFabricant="CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, CRGH0805J10K, RC0805FR-0710KL, CRGH0805J10K" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R6" Value="330" Quantity="1" Description="ARCOL/OHMITE  ACPP0805330RBE  R&#233;sistance &#224; puce CMS, Passiv&#233;e de pr&#233;cision, 330 ohm, 100 V, 0805 &#91;2012 Metric&#93;, 100 mW, &#177; 0.1&#37;" RefFournisseur="2504974" LibRef="Res2" RefFabricant="ACPP0805330RBE" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R11, R12, R15, R16" Value="47k" Quantity="4" Description="R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 47 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" RefFournisseur="9237836" LibRef="Res2" RefFabricant="RC0805FR-0747KL" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R13, R14, R17, R18" Value="4,7k" Quantity="4" Description="R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 4.7 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 5&#37;, S&#233;rie RC" RefFournisseur="9234098" LibRef="Res2" RefFabricant="RC0805JR-074K7L" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R19, R25" Value="0" Quantity="2" Description="MULTICOMP  MC0805S8F0000T5E  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 0 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie MC" RefFournisseur="2309112" LibRef="Res2" RefFabricant="MC0805S8F0000T5E" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R20" Value="7,5K" Quantity="1" Description="PANASONIC ELECTRONIC COMPONENTS  ERJ6GEYJ752V  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 7.5 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 5&#37;" RefFournisseur="2323866" LibRef="Res2" RefFabricant="ERJ6GEYJ752V" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R21" Value="2,4k" Quantity="1" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-0710KL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" RefFournisseur="2323829" LibRef="Res2" RefFabricant="ERJ6GEYJ242V" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R22, R27, R31" Value="22" Quantity="3" Description="&#91;NoValue&#93;, YAGEO &#40;PHYCOMP&#41;  RC0805FR-0722RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 22 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC, YAGEO &#40;PHYCOMP&#41;  RC0805FR-0722RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 22 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" RefFournisseur="&#91;NoValue&#93;, 9237283, 9237283" LibRef="Res2" RefFabricant="&#91;NoValue&#93;, RC0805FR-0722RL, RC0805FR-0722RL" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R23" Value="29.4K" Quantity="1" Description="PANASONIC ELECTRONIC COMPONENTS  ERJ6ENF2942V  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 29.4 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;" RefFournisseur="2303699" LibRef="Res2" RefFabricant="ERJ6ENF2942V" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R26" Value="47" Quantity="1" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-0747RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 47 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" RefFournisseur="9237321" LibRef="Res2" RefFabricant="RC0805FR-0747RL" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="R28, R29, R30" Value="220" Quantity="3" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-07220RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 220 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" RefFournisseur="9237402" LibRef="Res2" RefFabricant="RC0805FR-07220RL" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="RSENSE1" Value="0.2" Quantity="1" Description="SUSUMU  RL1220S-R20-F  R&#233;sistance CMS de d&#233;tection de courant, 0.2 ohm, 250 mW, 0805 &#91;2012 Metric&#93;, &#177; 1&#37;, S&#233;rie RL" RefFournisseur="1653327" LibRef="Res2" RefFabricant="RL1220S-R20-F" Footprint="RES 0603/1608" Fournisseur="Farnell"></ROW>
+    <ROW Designator="S1" Value="" Quantity="1" Description="Commutateur tactile, Non lumineux, 12 V, 50 mA, 100 gf, CMS, S&#233;rie DTSZML-6" RefFournisseur="2396053" LibRef="SW-PB" RefFabricant="MC32882" Footprint="Button" Fournisseur="Farnell"></ROW>
+    <ROW Designator="TPS1" Value="" Quantity="1" Description="request pending" RefFournisseur="/" LibRef="TPS561208" RefFabricant="TPS561208DDCR" Footprint="SOT23-6" Fournisseur="/"></ROW>
+    <ROW Designator="U1_EV, U1_MOT" Value="" Quantity="2" Description="Moteur Driver &#91;H - bridge&#93;" RefFournisseur="2420232" LibRef="DRV8838" RefFabricant="DRV8838DSGT" Footprint="S-PWSON-N8" Fournisseur="farnell"></ROW>
+    <ROW Designator="U2" Value="" Quantity="1" Description="High Performance 80 MHz MIPS-Based 32-Bit Flash Microcontroller, 512KB Program Memory, 64-pin TQFP" RefFournisseur="1677915" LibRef="PIC32MX340F512H-80I/PT_1" RefFabricant="PIC32MX340F512H-80I/PT" Footprint="TSQFP50P1200X1200X120-64N" Fournisseur="Farnell"></ROW>
+    <ROW Designator="U3" Value="" Quantity="1" Description="SILICON LABS  TS1100-25EG5T  Amplificateur de mesure de courant, Pr&#233;cision, 1 amplificateur, SOT-23, 5 Broche&#40;s&#41;, -40 &#176;C, 105 &#176;C" RefFournisseur="2373811" LibRef="TS1100" RefFabricant="TS1100-25EG5T" Footprint="SOT23-5" Fournisseur="Farnell"></ROW>
+    <ROW Designator="U4_S1, U4_S2" Value="" Quantity="2" Description="STMICROELECTRONICS  VL6180XV0NR/1  Capteur de proximit&#233;, Num&#233;rique, 100 mm, LGA, 12 Broche&#40;s&#41;, 2.6 V, 3 V" RefFournisseur="2462820" LibRef="VL6180x" RefFabricant="VL6180XV0NR/1" Footprint="LGA12" Fournisseur="Farnell"></ROW>
+    <ROW Designator="U5" Value="" Quantity="1" Description="MICROCHIP  RN4020-V/RM  Module Bluetooth&#174; Low Energy v4.1, 2.4GHz &#224; 2.48GHz, 1 MBPS" RefFournisseur="2442930" LibRef="RN4020" RefFabricant="RN4020-V/RM" Footprint="RN4020" Fournisseur="Farnell"></ROW>
+    <ROW Designator="W1, W2" Value="" Quantity="2" Description="Jumper Socket, Pin Headers, 2 Voies, 1.27 mm" RefFournisseur="1803187" LibRef="Jumper" RefFabricant="SNT-100-BK-T-H" Footprint="HDR1X2" Fournisseur="Farnell"></ROW>
+    <ROW Designator="Y1" Value="8MHz" Quantity="1" Description="MULTICOMP  HC49SM-8-30-50-60-16-ATF  Cristal, 8 MHz, CMS, 11.4mm x 4.65mm, 50 ppm, 16 pF, 30 ppm, S&#233;rie HC49SM" RefFournisseur="1667012" LibRef="XTAL" RefFabricant="HC49SM-8-30-50-60-16-ATF" Footprint="XTAL_HC-49/SM" Fournisseur="Farnell"></ROW>
+    <ROW Designator="Y2" Value="32.768Khz" Quantity="1" Description="ABRACON  AB26T-32.768KHZ  Cristal, 32.768 kHz, Cylindrique radial, diam&#232;tre 6.2mm x 2.1mm, 12.5 pF, 20 ppm, S&#233;rie AB26T" RefFournisseur="2467704" LibRef="XTAL" RefFabricant="AB26T-32.768KHZ" Footprint="XTAL_AB26T" Fournisseur="Farnell"></ROW>
+  </ROWS>
+</GRID>
