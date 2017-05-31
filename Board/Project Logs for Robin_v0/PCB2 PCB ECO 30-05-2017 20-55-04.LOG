@@ -1,0 +1,38 @@
+Change Component Designator: OldDesignator=C1_EV NewDesignator=C1_MOT
+Change Component Designator: OldDesignator=C2_EV NewDesignator=C2_MOT
+Change Component Designator: OldDesignator=C18_S1 NewDesignator=C18_S2
+Change Component Designator: OldDesignator=C19_S1 NewDesignator=C19_S2
+Change Component Designator: OldDesignator=JS3 NewDesignator=JS3_S1
+Change Component Designator: OldDesignator=P1_EV NewDesignator=P1_MOT
+Change Component Designator: OldDesignator=P2_EV NewDesignator=P2_MOT
+Change Component Designator: OldDesignator=U1_EV NewDesignator=U1_MOT
+Change Component Designator: OldDesignator=U4_S1 NewDesignator=U4_S2
+Change Net Name : Old Net Name=EN1 New Net Name=EN
+Change Net Name : Old Net Name=EN2 New Net Name=EN
+Change Net Name : Old Net Name=GPIO1_S1 New Net Name=GPIO1_S
+Change Net Name : Old Net Name=GPIO1_S2 New Net Name=GPIO1_S
+Change Net Name : Old Net Name=GPIO2_S1 New Net Name=GPIO2_S
+Change Net Name : Old Net Name=GPIO2_S2 New Net Name=GPIO2_S
+Change Net Name : Old Net Name=NetP1_EV_1 New Net Name=NetP1_MOT_1
+Change Net Name : Old Net Name=NetP1_EV_2 New Net Name=NetP1_MOT_2
+Change Net Name : Old Net Name=NSLEEP1 New Net Name=NSLEEP
+Change Net Name : Old Net Name=NSLEEP2 New Net Name=NSLEEP
+Change Net Name : Old Net Name=PH1 New Net Name=PH
+Change Net Name : Old Net Name=PH2 New Net Name=PH
+Change Class Name : Old Net Name=BLE New Net Name=COMBLE
+Change Class Name : Old Net Name=EV New Net Name=actuatorDriver
+Change Class Name : Old Net Name=I_SENSE New Net Name=currentSensor
+Change Class Name : Old Net Name=LEDs New Net Name=RGBLED
+Change Class Name : Old Net Name=MOT New Net Name=actuatorDriver
+Change Class Name : Old Net Name=POWER New Net Name=powerSupply
+Change Class Name : Old Net Name=S1 New Net Name=Sensor
+Change Class Name : Old Net Name=S2 New Net Name=Sensor
+Change Room Name: Old Name=POWER New Name=RGBLED
+Change Room Scope: Old Scope=InComponentClass('POWER') New Scope=InComponentClass('RGBLED')
+Added Room: Name=actuatorDriver
+Added Room: Name=actuatorDriver
+Added Room: Name=COMBLE
+Added Room: Name=currentSensor
+Added Room: Name=powerSupply
+Added Room: Name=Sensor
+Added Room: Name=Sensor

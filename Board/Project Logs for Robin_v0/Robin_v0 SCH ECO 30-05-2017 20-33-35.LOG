@@ -1,0 +1,17 @@
+Change Component Designator: OldDesignator=C1 NewDesignator=C1_EV
+Change Component Designator: OldDesignator=C1_EV NewDesignator=C1_MOT
+Change Component Designator: OldDesignator=C2 NewDesignator=C2_EV
+Change Component Designator: OldDesignator=C2_EV NewDesignator=C2_MOT
+Change Component Designator: OldDesignator=C18 NewDesignator=C18_S1
+Change Component Designator: OldDesignator=C18_S1 NewDesignator=C18_S2
+Change Component Designator: OldDesignator=C19 NewDesignator=C19_S1
+Change Component Designator: OldDesignator=C19_S1 NewDesignator=C19_S2
+Change Component Designator: OldDesignator=JS3 NewDesignator=JS3_S1
+Change Component Designator: OldDesignator=P1 NewDesignator=P1_EV
+Change Component Designator: OldDesignator=P1_EV NewDesignator=P1_MOT
+Change Component Designator: OldDesignator=P2 NewDesignator=P2_EV
+Change Component Designator: OldDesignator=P2_EV NewDesignator=P2_MOT
+Change Component Designator: OldDesignator=U1 NewDesignator=U1_EV
+Change Component Designator: OldDesignator=U1_EV NewDesignator=U1_MOT
+Change Component Designator: OldDesignator=U4 NewDesignator=U4_S1
+Change Component Designator: OldDesignator=U4_S1 NewDesignator=U4_S2
