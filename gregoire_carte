@@ -1,0 +1,16 @@
+-faire une couche dediee pour la forme de la carte
+-pattern a mettre pres de JS3_S2 (mail a envoye pour le pattern)
+-ne pas amener le cuivre jusqu au bout pour eviter carte coupante
+-pas de frein thermique pour les vias
+-pour les polygonconnect, conecter directement les vias
+-pattern moins gros pour les polygons
+-ne pas noyer les pads (mauvaise habitude)
+-si via, noye, sinon ne pas noyer les pattes dans les plans de masse (mauvaise idee)
+-renforcer la patte AGND
+-faire gaffe aux jumps d etains sur les pattes exterieures
+-U1_MOT truc chelou
+-rajouter sur la couche top-soldier des carres ?
+
+-dossier de fabrication complet
+-PcbDoc
+-schemas, mechanical drawings, electrinical drawings, bom
