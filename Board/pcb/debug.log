@@ -1,0 +1,2 @@
+[0531/135928:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/135928:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
