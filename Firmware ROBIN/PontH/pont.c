@@ -1,17 +1,17 @@
 void	ConfigureHBridge(void)
 {
-	TRISbits.TRIS = 1;
-	TRISbits.TRIS = 1;
+	TRISRbits.TRIS1 = 1;
+	TRISRbits.TRIS2 = 1;
 }
 
 void	OpenEV(void)
 {
-	LATbits.LAT = 1;
-	LATbits.LAT = 1;
-	//SecondPinHigh
-	//Watchdog
-	LATbits.LAT = 0;
-	LATbits.LAT = 0;
+	//reverse EV
+	LATRbits.LAT1 = 0;
+	LATRbits.LAT2 = 1;
+	Delay_16ms();
+	LATRbits.LAT1 = 0;
+	LATRbits.LAT2 = 0;
 
 //	PH = 1;
 //	EN = 1;
@@ -22,11 +22,12 @@ void	OpenEV(void)
 
 void	CloseEV(void)
 {
-	LATbits.LAT = 1: //reverse
-	LATbits.LAT = 0;
-	//Watchdog
-	LATbits.LAT = 0;
-	LATbits.LAT = 0;
+	//forward EV
+	LAT1bits.LAT1 = 1:
+	LAT2bits.LAT2 = 1;
+	Delay_16ms();
+	LAT1bits.LAT1 = 0;
+	LAT2bits.LAT2 = 0;
 
 //	PH = 1; //reverse
 //	EN = 0; 

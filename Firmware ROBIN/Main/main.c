@@ -1,5 +1,11 @@
 #include "robin.h"
 
+/*
+** Finite-State-Machine to drive Robin modules :
+**	- intqueue : FIFO structure of module interrupts
+**	- robinstate : state with  action to commit
+*/
+
 static t_input		g_input[] = 
 {
 	{UART_RD, &read_uart},
@@ -20,6 +26,12 @@ static	t_module	g_module[] =
 
 int			main(void)
 {
+
+	//check for called by WDT interrupt
+
+	if (RCON & 0x14)
+		asm volatile("eret");
+
 	int		i = -1;
 	int		j;
 
@@ -40,16 +52,20 @@ int			main(void)
 	// init modules
 	
 	// sensor calibration	
-	
 
 	while (1)
 	{
 		while (intqueue[i] != EMPTY)
 		{
+			//intqueue to get robin state
+	
 			j = -1;
 			while (g_input[++j].intflag != END_INT)
 				if (intqueue[i] == g_input[j].intflag)
 					robin = g_input[j].read();
+
+			//action to commit
+
 			intqueue[i--] = 0;
 			j = -1;
 			while (g_module[++j].robinstate != END_ROBIN)
