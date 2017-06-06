@@ -1,0 +1,22 @@
+Added Component: Designator=D?(microSMA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = " TAIWAN SEMICONDUCTOR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFabricant"; Value = " SS14M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFournisseur"; Value = "1863139"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = "550mV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net*_1 Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-2
+Change Net Name : Old Net Name=Net*_1 New Net Name=NetC15_2
+Added Member To Class: ClassName=powerSupply Member=Component C15 100n
+Added Member To Class: ClassName=powerSupply Member=Component D? 550mV
+Added Member To Class: ClassName=CTRL Member=Component S1 SW-PB
+Added Room: Name=actuatorDriver
+Added Room: Name=actuatorDriver
+Added Room: Name=COMBLE
+Added Room: Name=CTRL
+Added Room: Name=currentSensor
+Added Room: Name=powerSupply
+Added Room: Name=RGBLED
+Added Room: Name=Sensor
+Added Room: Name=Sensor

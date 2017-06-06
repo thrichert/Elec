@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=VCC Pin=C23_M-1
+Removed Pin From Net: NetName=GND Pin=C23_M-2
+Removed Pin From Net: NetName=VCC Pin=C23_S-1
+Removed Pin From Net: NetName=GND Pin=C23_S-2
+Removed Pin From Net: NetName=GND Pin=C24_M-1
+Removed Pin From Net: NetName=VCC Pin=C24_M-2
+Removed Pin From Net: NetName=GND Pin=C24_S-1
+Removed Pin From Net: NetName=VCC Pin=C24_S-2
+Removed Pin From Net: NetName=VCCS Pin=JS3_M-1
+Removed Pin From Net: NetName=VCC Pin=U6_M-8
+Removed Pin From Net: NetName=GND Pin=U6_M-9
+Removed Pin From Net: NetName=VCC Pin=U6_M-10
+Removed Pin From Net: NetName=GND Pin=U6_M-12
+Removed Pin From Net: NetName=VCC Pin=U6_S-8
+Removed Pin From Net: NetName=GND Pin=U6_S-9
+Removed Pin From Net: NetName=VCC Pin=U6_S-10
+Removed Pin From Net: NetName=GND Pin=U6_S-12
+Added Pin To Net: NetName=VCCS Pin=C23_S-1
+Added Pin To Net: NetName=VCCS Pin=C24_S-2
+Added Pin To Net: NetName=VCCS Pin=U6_S-8
+Added Pin To Net: NetName=VCCS Pin=U6_S-10
+Change Net Name : Old Net Name=VCCS New Net Name=VCCS_S
+Added Pin To Net: NetName=GNDS_M Pin=C23_M-2
+Added Pin To Net: NetName=GNDS_M Pin=C24_M-1
+Added Pin To Net: NetName=GNDS_M Pin=JS3_M-2
+Added Pin To Net: NetName=GNDS_M Pin=U6_M-9
+Added Pin To Net: NetName=GNDS_M Pin=U6_M-12
+Added Net: Name=GNDS_M
+Added Pin To Net: NetName=GNDS_S Pin=C23_S-2
+Added Pin To Net: NetName=GNDS_S Pin=C24_S-1
+Added Pin To Net: NetName=GNDS_S Pin=JS3_S-2
+Added Pin To Net: NetName=GNDS_S Pin=U6_S-9
+Added Pin To Net: NetName=GNDS_S Pin=U6_S-12
+Added Net: Name=GNDS_S
+Added Pin To Net: NetName=VCCS_M Pin=C23_M-1
+Added Pin To Net: NetName=VCCS_M Pin=C24_M-2
+Added Pin To Net: NetName=VCCS_M Pin=JS3_M-1
+Added Pin To Net: NetName=VCCS_M Pin=U6_M-8
+Added Pin To Net: NetName=VCCS_M Pin=U6_M-10
+Added Net: Name=VCCS_M
+Added Room: Name=COMBLE
+Added Room: Name=CTRL
+Added Room: Name=currentSensor
+Added Room: Name=M
+Added Room: Name=M
+Added Room: Name=powerSupply
+Added Room: Name=RGBLED
+Added Room: Name=S
+Added Room: Name=S

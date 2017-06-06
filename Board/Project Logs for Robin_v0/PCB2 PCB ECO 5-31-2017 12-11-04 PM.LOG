@@ -1,0 +1,776 @@
+Removed Pin From Net: NetName=VCC Pin=JS3-1
+Removed Pin From Net: NetName=GND Pin=JS3-2
+Removed Pin From Net: NetName=GPIO1_S2 Pin=JS3-3
+Removed Pin From Net: NetName=GPIO2_S2 Pin=JS3-4
+Removed Pin From Net: NetName=SDA2 Pin=JS3-5
+Removed Pin From Net: NetName=SCL2 Pin=JS3-6
+Removed Pin From Net: NetName=VCC Pin=JS3_S1-1
+Removed Pin From Net: NetName=GND Pin=JS3_S1-2
+Removed Pin From Net: NetName=GPIO1_S1 Pin=JS3_S1-3
+Removed Pin From Net: NetName=GPIO2_S1 Pin=JS3_S1-4
+Removed Pin From Net: NetName=SDA1 Pin=JS3_S1-5
+Removed Pin From Net: NetName=SCL1 Pin=JS3_S1-6
+Removed Pin From Net: NetName=GND Pin=TPS1-1
+Removed Pin From Net: NetName=NetC16_1 Pin=TPS1-3
+Removed Pin From Net: NetName=NetR23_1 Pin=TPS1-4
+Removed Pin From Net: NetName=NetC16_1 Pin=TPS1-5
+Removed Pin From Net: NetName=NetC15_1 Pin=TPS1-6
+Removed Pin From Net: NetName=GPIO2_S1 Pin=U4_S1-1
+Removed Pin From Net: NetName=GPIO1_S1 Pin=U4_S1-4
+Removed Pin From Net: NetName=SCL1 Pin=U4_S1-5
+Removed Pin From Net: NetName=SDA1 Pin=U4_S1-6
+Removed Pin From Net: NetName=GPIO2_S2 Pin=U4_S2-1
+Removed Pin From Net: NetName=GPIO1_S2 Pin=U4_S2-4
+Removed Pin From Net: NetName=SCL2 Pin=U4_S2-5
+Removed Pin From Net: NetName=SDA2 Pin=U4_S2-6
+Removed Member From Class: ClassName=POWER Member=TPS1
+Change Component Comment : Designator=L1 Old Comment=3.3UH New Comment=15UH
+Change Component Comment : Designator=R24 Old Comment=10k New Comment=3.7K
+Change Component Comment : Designator=C16 Old Comment=10u New Comment=22u
+Change Component Comment : Designator=R23 Old Comment=29.4K New Comment=10.2k
+Change Component Designator: OldDesignator=C1_EV NewDesignator=C1_MOT
+Change Component Designator: OldDesignator=C2_EV NewDesignator=C2_MOT
+Change Component Designator: OldDesignator=C18_S1 NewDesignator=C18_S2
+Change Component Designator: OldDesignator=C19_S1 NewDesignator=C19_S2
+Change Component Designator: OldDesignator=JS3 NewDesignator=JS3_S1
+Change Component Designator: OldDesignator=P1_EV NewDesignator=P1_MOT
+Change Component Designator: OldDesignator=P2_EV NewDesignator=P2_MOT
+Change Component Designator: OldDesignator=U1_EV NewDesignator=U1_MOT
+Change Component Designator: OldDesignator=U4_S1 NewDesignator=U4_S2
+Change component parameters: Designator = "JS3_S1"; Footprint = "7-215464-8"; UniqueID = "\RPVHOXVN\LJQWOIXI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "AMP - TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "7-215460-8"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JS3_S1"; Footprint = "7-215464-8"; UniqueID = "\VJONWKLA\LJQWOIXI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "AMP - TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "7-215460-8"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P1_MOT"; Footprint = "HDR1X2"; UniqueID = "\VMUKCJDA\LDNESSMS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P1_MOT"; Footprint = "HDR1X2"; UniqueID = "\IAQNGCUT\LDNESSMS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P4"; Footprint = "HDR1X2"; UniqueID = "\QCVLCHIW\SFWNXFUX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D1"; Footprint = "LED 0603/1608 BLUE"; UniqueID = "\QCVLCHIW\YWYESIOX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabrican"; Value = "PANASONIC ELECTRONIC COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "LNJ926W8CRA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1908050"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2"; Footprint = "LED 0603/1608 BLUE"; UniqueID = "\EPFSUMUW\QQYOSKAK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabrican"; Value = "PANASONIC ELECTRONIC COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "LNJ437W84RA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1908055"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3"; Footprint = "LED 0603/1608 BLUE"; UniqueID = "\EPFSUMUW\PMXNPKSJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabrican"; Value = "PANASONIC ELECTRONIC COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "LNJ437W84RA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1908055"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4"; Footprint = "LED 0603/1608 BLUE"; UniqueID = "\EPFSUMUW\ADOKJGRF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabrican"; Value = "PANASONIC ELECTRONIC COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "LNJ926W8CRA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1908050"; VariantName = "[No Variations]"
+Change component parameters: Designator = "COM1"; Footprint = "7-215460-8"; UniqueID = "\BTPWNUUT\SYJFGRSP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "AMP - TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "7-215460-8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "148751"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JS1"; Footprint = "7-215460-8"; UniqueID = "\BTPWNUUT\KWUICIBY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "AMP - TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "7-215460-8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "148751"; VariantName = "[No Variations]"
+Change component parameters: Designator = "JS2"; Footprint = "7-215460-8"; UniqueID = "\BTPWNUUT\EIAANCQR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "AMP - TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "7-215460-8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "148751"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LED1"; Footprint = "SMLP36"; UniqueID = "\RSQNKTSS\GCOSETTB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "ROHM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "SMLP36RGB2W3R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2507558RL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P2_MOT"; Footprint = "HDR1X3"; UniqueID = "\VMUKCJDA\MEMHRQOJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WURTH ELEKTRONIK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "61300611121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2356158"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P2_MOT"; Footprint = "HDR1X3"; UniqueID = "\IAQNGCUT\MEMHRQOJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WURTH ELEKTRONIK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "61300611121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2356158"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P3"; Footprint = "HDR1X6"; UniqueID = "\BTPWNUUT\FEPJFLJX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WURTH ELEKTRONIK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "61300611121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2356158"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q1"; Footprint = "SOT-23"; UniqueID = "\BTPWNUUT\AVTXJCTD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "NEXPERIA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "BSS138AKA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2357125"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2"; Footprint = "SOT-23"; UniqueID = "\BTPWNUUT\KGXQIJPI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "NEXPERIA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "BSS138AKA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2357125"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q3"; Footprint = "SOT-23"; UniqueID = "\BTPWNUUT\JYKDXTJC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "NEXPERIA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "BSS138AKA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2357125"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q4"; Footprint = "SOT-23"; UniqueID = "\BTPWNUUT\ONNKWJAY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "NEXPERIA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "BSS138AKA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2357125"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q5"; Footprint = "SOT-23_M"; UniqueID = "\QCVLCHIW\OCSLNXBM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "FAIRCHILD SEMICONDUCTOR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "FDN5618P"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9846344"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S1"; Footprint = "Button"; UniqueID = "\BTPWNUUT\LJYFLNGQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MC32882"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2396053"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1_MOT"; Footprint = "S-PWSON-N8"; UniqueID = "\VMUKCJDA\KPMCBBOB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "Texas instrument"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "DRV8838DSGT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2420232"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1_MOT"; Footprint = "S-PWSON-N8"; UniqueID = "\IAQNGCUT\KPMCBBOB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "Texas instrument"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "DRV8838DSGT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2420232"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2"; Footprint = "TSQFP50P1200X1200X120-64N"; UniqueID = "\BTPWNUUT\YFIRMNVM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "PIC32MX340F512H-80I/PT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1677915"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3"; Footprint = "SOT23-5"; UniqueID = "\LEHATKSR\GLKYANLR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "Silicon Lab"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "TS1100-25EG5T"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2373811"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4_S2"; Footprint = "LGA12"; UniqueID = "\VJONWKLA\OQQYVLJD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "STmicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "VL6180XV0NR/1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2462820"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4_S2"; Footprint = "LGA12"; UniqueID = "\RPVHOXVN\OQQYVLJD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "STmicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "VL6180XV0NR/1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2462820"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5"; Footprint = "RN4020"; UniqueID = "\EPFSUMUW\RLUMYSXI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "RN4020-V/RM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2442930"; VariantName = "[No Variations]"
+Change component parameters: Designator = "W1"; Footprint = "HDR1X2"; UniqueID = "\QCVLCHIW\EHBNNMJA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "SNT-100-BK-T-H"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1803187"; VariantName = "[No Variations]"
+Change component parameters: Designator = "W2"; Footprint = "HDR1X2"; UniqueID = "\QCVLCHIW\BTOXGNYY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "SNT-100-BK-T-H"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1803187"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1_MOT"; Footprint = "CAP 0603/1608"; UniqueID = "\VMUKCJDA\QPMRBJEM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1_MOT"; Footprint = "CAP 0603/1608"; UniqueID = "\IAQNGCUT\QPMRBJEM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2_MOT"; Footprint = "CAP 0603/1608"; UniqueID = "\VMUKCJDA\QBATNDON"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2_MOT"; Footprint = "CAP 0603/1608"; UniqueID = "\IAQNGCUT\QBATNDON"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\ITOEFPCP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\YANBFIDK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\FBQVQPCH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\TOHYGEWD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C7"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\NTTLHWES"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C8"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\OCOCYDTE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\BYJXBBEI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WALSIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "0805N220J500CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2497023"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22pf"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\CCAPUWRJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WALSIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "0805N220J500CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2497023"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22pf"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\CGIWFLMI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WALSIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "0805N270J500CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2497027"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "27pf"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C12"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\BQELIHNQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WALSIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "0805N270J500CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2497027"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "27pf"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C13"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\BAWPGXUC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14"; Footprint = "CAP 0603/1608"; UniqueID = "\LEHATKSR\VVWFTFGT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C15"; Footprint = "CAP 0603/1608"; UniqueID = "\QCVLCHIW\FKXCUDQO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "AVX"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "08053C104KAT2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1740665"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C16"; Footprint = "CAP 0603/1608"; UniqueID = "\QCVLCHIW\GXPTMJQL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MURATA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17"; Footprint = "CAP 1210/3225 - 2.5MM"; UniqueID = "\QCVLCHIW\KDULTWWU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "C1206C476M8PACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1572639"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C18_S2"; Footprint = "RES 0603/1608"; UniqueID = "\VJONWKLA\WBKJEDAL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C18_S2"; Footprint = "RES 0603/1608"; UniqueID = "\RPVHOXVN\WBKJEDAL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19_S2"; Footprint = "CAP 0603/1608"; UniqueID = "\VJONWKLA\EWWATFBH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WALSIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "0603X475K6R3CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2496930"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19_S2"; Footprint = "CAP 0603/1608"; UniqueID = "\RPVHOXVN\EWWATFBH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "WALSIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "0603X475K6R3CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2496930"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20"; Footprint = "CAP POL 1206/3216 - 1.2MM"; UniqueID = "\EPFSUMUW\HKKUFQIY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "T491A475K010AT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1457427"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "value"; Value = "4.7u"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C21"; Footprint = "RES 0603/1608"; UniqueID = "\EPFSUMUW\VWQQGUTA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "MCSH21B104K100CT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1856422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L1"; Footprint = "SRN6045-3R3Y"; UniqueID = "\QCVLCHIW\TAVLMWJT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "fabricant"; Value = "BOURNS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "SRN6045-150M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2061653"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "value"; Value = "15UH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\YLGTIWUO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\BNFIOBQQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\ROYSLTST"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\JHAVYJOP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\SILPNIYS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\XMANDTJC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "ARCOL/OHMITE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "ACPP0805330RBE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2504974"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "330"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\QVLUKRSI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\QUCYCPMX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\AOGPPGJL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\IHDHDUVF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R11"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\UPIYOFAJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-0747KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237836"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\XMERYQYO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-0747KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237836"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R13"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\WAHJRIMN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805JR-074K7L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9234098"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\AJHDRUKH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805JR-074K7L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9234098"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R15"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\FNRMBGIU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-0747KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237836"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\BJPAHCVE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-0747KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237836"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R17"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\LFARENCV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805JR-074K7L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9234098"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R18"; Footprint = "RES 0603/1608"; UniqueID = "\BTPWNUUT\RIDBIUWD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805JR-074K7L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9234098"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\CSAWNOFR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "MC0805S8F0000T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2309112"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R20"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\GXBPMIYS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "PANASONIC ELECTRONIC COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "ERJ6GEYJ752V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2323866"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "7,5K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\TQBJFGOF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "PANASONIC ELECTRONIC COMPONENTS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "ERJ6GEYJ242V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2323829"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2,4k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R22"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\WKBWMISQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R23"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\JAPIPBUY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10.2k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R24"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\LBFYQPJR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "3.7K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25"; Footprint = "RES 0603/1608"; UniqueID = "\QCVLCHIW\XWYDAHLH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "MC0805S8F0000T5E"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2309112"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R26"; Footprint = "RES 0603/1608"; UniqueID = "\RSQNKTSS\HPQSCJCH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-0747RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237321"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27"; Footprint = "RES 0603/1608"; UniqueID = "\RSQNKTSS\TTFOSBKO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237283"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28"; Footprint = "RES 0603/1608"; UniqueID = "\RSQNKTSS\HWNSSDSI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-07220RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29"; Footprint = "RES 0603/1608"; UniqueID = "\EPFSUMUW\ILSTVEMS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-07220RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30"; Footprint = "RES 0603/1608"; UniqueID = "\EPFSUMUW\WRNMIXEC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-07220RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "220"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R31"; Footprint = "RES 0603/1608"; UniqueID = "\EPFSUMUW\LCYRLKKQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "RC0805FR-0722RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "9237283"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R32"; Footprint = "RES 0603/1608"; UniqueID = "\EPFSUMUW\QLJKQEUB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "TE CONNECTIVITY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "refFabricant"; Value = "CRGH0805J10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2331808"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "RSENSE1"; Footprint = "RES 0603/1608"; UniqueID = "\LEHATKSR\FGNAKJCF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "SUSUMU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "RL1220S-R20-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1653327"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0.2"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Y1"; Footprint = "XTAL_HC-49/SM"; UniqueID = "\BTPWNUUT\LFYMYKNT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "MULTICOMP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "HC49SM-8-30-50-60-16-ATF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "1667012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "value"; Value = "8MHz"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Y2"; Footprint = "XTAL_AB26T"; UniqueID = "\BTPWNUUT\ADBXHFTL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Fabricant"; Value = "ABRACON"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFabricant"; Value = "AB26T-32.768KHZ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefFournisseur"; Value = "2467704"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "value"; Value = "32.768Khz"; VariantName = "[No Variations]"
+Added Component: Designator=C1(CAP 0603/1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFabricant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "75pf"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP 0603/1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFabricant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "3.9nf"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAP 0603/1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "MURATA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFabricant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "8.2nf"; VariantName = "[No Variations]"
+Added Component: Designator=R33(RES 0603/1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFabricant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R34(RES 0603/1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFabricant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "20.5k"; VariantName = "[No Variations]"
+Added Component: Designator=R35(RES 0603/1608)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "YAGEO (PHYCOMP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFabricant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefFournisseur"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1MEG"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOIC8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Fabricant"; Value = "Texas Instrument"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fournisseur"; Value = "farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFabricant"; Value = "TPS54231D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "refFournisseur"; Value = "1755637"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=NetC16_1 Pin=R33-2
+Added Pin To Net: NetName=GND Pin=R35-1
+Added Pin To Net: NetName=NetC15_1 Pin=U1-1
+Added Pin To Net: NetName=NetC16_1 Pin=U1-2
+Added Pin To Net: NetName=NetR23_1 Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-7
+Change Net Name : Old Net Name=EN1 New Net Name=EN
+Change Net Name : Old Net Name=EN2 New Net Name=EN
+Change Net Name : Old Net Name=GPIO1_S1 New Net Name=GPIO10
+Change Net Name : Old Net Name=GPIO1_S2 New Net Name=GPIO20
+Change Net Name : Old Net Name=GPIO2_S1 New Net Name=GPIO11
+Change Net Name : Old Net Name=GPIO2_S2 New Net Name=GPIO21
+Change Net Name : Old Net Name=NetP1_EV_1 New Net Name=NetP1_MOT_1
+Change Net Name : Old Net Name=NetP1_EV_2 New Net Name=NetP1_MOT_2
+Change Net Name : Old Net Name=NSLEEP1 New Net Name=nSLEEP
+Change Net Name : Old Net Name=NSLEEP2 New Net Name=nSLEEP
+Change Net Name : Old Net Name=PH1 New Net Name=PH
+Change Net Name : Old Net Name=PH2 New Net Name=PH
+Added Pin To Net: NetName=GNDS Pin=JS3_S1-2
+Added Pin To Net: NetName=GNDS Pin=JS3_S1-2
+Added Net: Name=GNDS
+Added Pin To Net: NetName=GPIO1_S Pin=JS3_S1-3
+Added Pin To Net: NetName=GPIO1_S Pin=U4_S2-4
+Added Net: Name=GPIO1_S
+Added Pin To Net: NetName=GPIO2_S Pin=JS3_S1-4
+Added Pin To Net: NetName=GPIO2_S Pin=U4_S2-1
+Added Net: Name=GPIO2_S
+Added Pin To Net: NetName=Net*_1 Pin=C15-2
+Added Pin To Net: NetName=Net*_1 Pin=L1-1
+Added Pin To Net: NetName=Net*_1 Pin=U1-8
+Added Net: Name=Net*_1
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=R34-2
+Added Pin To Net: NetName=NetC1_1 Pin=U1-6
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=R34-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=U1-4
+Added Net: Name=NetC18_1
+Added Pin To Net: NetName=NetR33_1 Pin=R33-1
+Added Pin To Net: NetName=NetR33_1 Pin=R35-2
+Added Pin To Net: NetName=NetR33_1 Pin=U1-3
+Added Net: Name=NetR33_1
+Added Pin To Net: NetName=SCL_S Pin=JS3_S1-6
+Added Pin To Net: NetName=SCL_S Pin=U4_S2-5
+Added Net: Name=SCL_S
+Added Pin To Net: NetName=SDA_S Pin=JS3_S1-5
+Added Pin To Net: NetName=SDA_S Pin=U4_S2-6
+Added Net: Name=SDA_S
+Added Pin To Net: NetName=VCCS Pin=JS3_S1-1
+Added Pin To Net: NetName=VCCS Pin=JS3_S1-1
+Added Net: Name=VCCS
+Change Class Name : Old Net Name=BLE New Net Name=COMBLE
+Change Class Name : Old Net Name=EV New Net Name=actuatorDriver
+Change Class Name : Old Net Name=I_SENSE New Net Name=currentSensor
+Change Class Name : Old Net Name=LEDs New Net Name=RGBLED
+Change Class Name : Old Net Name=MOT New Net Name=actuatorDriver
+Change Class Name : Old Net Name=POWER New Net Name=powerSupply
+Change Class Name : Old Net Name=S1 New Net Name=Sensor
+Change Class Name : Old Net Name=S2 New Net Name=Sensor
+Added Member To Class: ClassName=powerSupply Member=Component C1 75pf
+Added Member To Class: ClassName=powerSupply Member=Component C2 3.9nf
+Added Member To Class: ClassName=powerSupply Member=Component C18 8.2nf
+Added Member To Class: ClassName=powerSupply Member=Component R33 10k
+Added Member To Class: ClassName=powerSupply Member=Component R34 20.5k
+Added Member To Class: ClassName=powerSupply Member=Component R35 1MEG
+Added Member To Class: ClassName=powerSupply Member=Component U1 TPS54231D
+Change Room Name: Old Name=POWER New Name=RGBLED
+Change Room Scope: Old Scope=InComponentClass('POWER') New Scope=InComponentClass('RGBLED')
+Added Room: Name=actuatorDriver
+Added Room: Name=actuatorDriver
+Added Room: Name=COMBLE
+Added Room: Name=currentSensor
+Added Room: Name=powerSupply
+Added Room: Name=Sensor
+Added Room: Name=Sensor

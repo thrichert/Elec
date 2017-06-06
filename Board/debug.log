@@ -1,2 +1,36 @@
 [0515/093530:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
 [0515/093531:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/101636:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/101636:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/140048:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/140048:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/140102:ERROR:backend_impl.cc(1037)] Critical error found -8
+[0531/140102:ERROR:entry_impl.cc(1035)] No file for a1010004
+[0531/140102:WARNING:storage_block-inl.h(131)] Failed data load.
+[0531/140102:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0531/140102:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium Designer Winter 10\BrowserCache to C:\ProgramData\Altium Designer Winter 10\old_BrowserCache_000
+[0531/140102:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0531/150855:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/150855:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/150908:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0531/150908:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0531/150908:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium Designer Winter 10\BrowserCache to C:\ProgramData\Altium Designer Winter 10\old_BrowserCache_000
+[0531/150908:ERROR:cache_creator.cc(129)] Unable to create cache
+[0531/162240:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/162240:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/162251:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0531/162251:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0531/162251:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium Designer Winter 10\BrowserCache to C:\ProgramData\Altium Designer Winter 10\old_BrowserCache_000
+[0531/162251:ERROR:cache_creator.cc(129)] Unable to create cache
+[0531/191338:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/191338:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/191351:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0531/191351:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0531/191351:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium Designer Winter 10\BrowserCache to C:\ProgramData\Altium Designer Winter 10\old_BrowserCache_000
+[0531/191351:ERROR:cache_creator.cc(129)] Unable to create cache
+[0531/200055:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 4: Could not create D3D11 device.
+[0531/200055:ERROR:gl_surface_egl.cc(594)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[0531/200058:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0531/200058:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0531/200058:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium Designer Winter 10\BrowserCache to C:\ProgramData\Altium Designer Winter 10\old_BrowserCache_000
+[0531/200058:ERROR:cache_creator.cc(129)] Unable to create cache

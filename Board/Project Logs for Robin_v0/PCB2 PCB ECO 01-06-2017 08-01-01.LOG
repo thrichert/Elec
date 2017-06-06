@@ -1,0 +1,51 @@
+Removed Member From Class: ClassName=S Member=C1_M
+Removed Member From Class: ClassName=powerSupply Member=C4
+Removed Member From Class: ClassName=currentSensor Member=C22
+Removed Member From Class: ClassName=S Member=C23_M
+Removed Member From Class: ClassName=powerSupply Member=CB1
+Removed Member From Class: ClassName=powerSupply Member=D1
+Removed Member From Class: ClassName=S Member=JS3_M
+Removed Member From Class: ClassName=powerSupply Member=R3
+Removed Member From Class: ClassName=RGBLED Member=R3
+Removed Member From Class: ClassName=powerSupply Member=R4
+Removed Member From Class: ClassName=COMBLE Member=R5
+Removed Member From Class: ClassName=COMBLE Member=R6
+Removed Member From Class: ClassName=CTRL Member=R23
+Removed Member From Class: ClassName=CTRL Member=R24
+Removed Member From Class: ClassName=RGBLED Member=R29
+Removed Member From Class: ClassName=CTRL Member=R33
+Removed Member From Class: ClassName=powerSupply Member=R33
+Removed Member From Class: ClassName=powerSupply Member=R34
+Removed Member From Class: ClassName=powerSupply Member=R35
+Removed Member From Class: ClassName=powerSupply Member=U2
+Removed Member From Class: ClassName=CTRL Member=U4
+Added Member To Class: ClassName=S Member=Component C1_S (C1) 100n
+Added Member To Class: ClassName=currentSensor Member=Component C16 100n
+Added Member To Class: ClassName=powerSupply Member=Component C21 3.9nf
+Added Member To Class: ClassName=S Member=Component C23_S (C23) 100n
+Added Member To Class: ClassName=powerSupply Member=Component CB4 Circuit Breaker
+Added Member To Class: ClassName=powerSupply Member=Component D4 LED2
+Added Member To Class: ClassName=S Member=Component JS3_S (JS3) Header 8
+Added Member To Class: ClassName=COMBLE Member=Component R1 220
+Added Member To Class: ClassName=COMBLE Member=Component R2 220
+Added Member To Class: ClassName=CTRL Member=Component R19 47k
+Added Member To Class: ClassName=CTRL Member=Component R20 47k
+Added Member To Class: ClassName=CTRL Member=Component R22 4,7k
+Added Member To Class: ClassName=powerSupply Member=Component R26 22
+Added Member To Class: ClassName=powerSupply Member=Component R27 10.2k
+Added Member To Class: ClassName=powerSupply Member=Component R28 10k
+Added Member To Class: ClassName=powerSupply Member=Component R31 1MEG
+Added Member To Class: ClassName=powerSupply Member=Component R32 3.7K
+Added Member To Class: ClassName=RGBLED Member=Component R34 22
+Added Member To Class: ClassName=RGBLED Member=Component R35 220
+Added Member To Class: ClassName=CTRL Member=Component U3 PIC32MX340F512H-80I/PT_1
+Added Member To Class: ClassName=powerSupply Member=Component U5 TPS54231D
+Added Room: Name=COMBLE
+Added Room: Name=CTRL
+Added Room: Name=currentSensor
+Added Room: Name=M
+Added Room: Name=M
+Added Room: Name=powerSupply
+Added Room: Name=RGBLED
+Added Room: Name=S
+Added Room: Name=S
