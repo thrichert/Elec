@@ -69,9 +69,9 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D13
+    D37
     D41
-    D43
+    D42
     D45
     D46
     D47
@@ -85,93 +85,6 @@ Used DCodes :
     D55
     D56
     D57
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : PCB2.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : PCB2.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB2.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D41
-    D42
-    D58
-    D59
-    D60
-    D61
-    D62
 *************************************************************
 
 *************************************************************
@@ -217,6 +130,23 @@ Used DCodes :
     D38
     D39
     D40
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB2.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D41
+    D43
+    D58
+    D59
+    D60
+    D61
+    D62
 *************************************************************
 
 *************************************************************
@@ -288,7 +218,7 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D66
+    D90
     D95
     D96
     D97
@@ -303,6 +233,16 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Overlay
+      File : PCB2.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
 Generating : Bottom Paste
       File : PCB2.GBP
 
@@ -311,16 +251,6 @@ Generating : Bottom Paste
     Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : PCB2.GBO
-
-    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -358,7 +288,7 @@ Generating : Mechanical 13
 
 
 Used DCodes :
-    D61
+    D58
 *************************************************************
 
 *************************************************************
@@ -370,7 +300,7 @@ Generating : Mechanical 15
 
 Used DCodes :
     D41
-    D61
+    D58
     D109
 *************************************************************
 
@@ -382,7 +312,7 @@ Generating : Multi-Layer
 
 
 Used DCodes :
-    D13
+    D37
     D45
     D46
     D47
@@ -400,32 +330,5 @@ Generating : Dielectric 1
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : PCB2.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D110
-    D111
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : PCB2.GG1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D110
 *************************************************************
 

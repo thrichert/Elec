@@ -1,0 +1,62 @@
+Bill of Material for 
+On 6/13/2017 at 2:55:33 PM
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 0.2                 RES 0603/1608    1    RSENSE1                      SUSUMU  RL1220S-R20-F  Résistance CMS de détection de courant, 0.2 ohm, 250 mW, 0805 [2012 Metric], ± 1%, Série RL 
+ 0                   RES 0603/1608    2    R23, R30                     MULTICOMP  MC0805S8F0000T5E  Résistance à puce CMS, Couche épaisse, 0 ohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%, Série MC 
+ 10.2k               RES 0603/1608    1    R27                                               
+ 100n                CAP 0603/1608    6    C1_M, C1_S, C2_M, C2_S, C16  MULTICOMP  MCSH21B104K100CT  Condensateur céramique multicouche CMS, 0805 [2012 Metric], 0.1 µF, 10 V, ± 10%, X7R, Série MCSH 
+                                           C17
+ 100n                RES 0603/1608   10    C4, C5, C6, C7, C8, C9, C10  MULTICOMP  MCSH21B104K100CT  Condensateur céramique multicouche CMS, 0805 [2012 Metric], 0.1 µF, 10 V, ± 10%, X7R, Série MCSH 
+                                           C15, C23_M, C23_S
+ 10k                 RES 0603/1608   11    R4, R5, R6, R7, R8, R9, R11  Résistance à puce CMS, Couche épaisse, 10 kohm, 150 V, 0805 
+                                           R12, R13, R14, R28
+ 15UH                SRN6045-3R3Y     1    L1                           BOURNS  SRN6045-150M  Inductance de puissance CMS, 15 µH, 1.9 A, 2.3 A, Blindé, 0.0958 ohm 
+ 1MEG                RES 0603/1608    1    R31                                               
+ 2,4k                RES 0603/1608    1    R25                          YAGEO (PHYCOMP)  RC0805FR-0710KL  Résistance à puce CMS, Couche épaisse, 10 kohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%, Série RC 
+ 20.5k               RES 0603/1608    1    R29                                               
+ 22                  RES 0603/1608    3    R3, R26, R34                 YAGEO (PHYCOMP)  RC0805FR-0722RL  Résistance à puce CMS, Couche épaisse, 22 ohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%, Série RC 
+ 220                 RES 0603/1608    3    R1, R2, R35                  YAGEO (PHYCOMP)  RC0805FR-07220RL  Résistance à puce CMS, Couche épaisse, 220 ohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%, Série RC 
+ 22pf                RES 0603/1608    2    C11, C12                     Condensateur céramique multicouche CMS, 0805 [2012 Metric], 22 pF, 50 V, ± 5%, C0G / NP0 
+ 22u                 CAP 0603/1608    1    C18                                               
+ 27pf                RES 0603/1608    2    C13, C14                     Condensateur céramique multicouche CMS, 0805 [2012 Metric], 27 pF, 50 V, ± 5%, C0G / NP0 
+ 3.7K                RES 0603/1608    1    R32                                               
+ 3.9nf               CAP 0603/1608    1    C21                                               
+ 32.768Khz           XTAL_AB26T       1    Y2                           ABRACON  AB26T-32.768KHZ  Cristal, 32.768 kHz, Cylindrique radial, diamètre 6.2mm x 2.1mm, 12.5 pF, 20 ppm, Série AB26T 
+ 330                 RES 0603/1608    1    R10                          ARCOL/OHMITE  ACPP0805330RBE  Résistance à puce CMS, Passivée de précision, 330 ohm, 100 V, 0805 [2012 Metric], 100 mW, ± 0.1% 
+ 4,7k                RES 0603/1608    4    R17, R18, R21, R22           Résistance à puce CMS, Couche épaisse, 4.7 kohm, 150 V, 0805 [2012 Metric], 125 mW, ± 5%, Série RC 
+ 4.7u                CAP 0603/1608    2    C24_M, C24_S                 WALSIN  0603X475K6R3CT  Condensateur céramique multicouche CMS, 0603 [1608 Metric], 4.7 µF, 6.3 V, ± 10%, X5R 
+ 4.7u                CAP POL 1206/3216 - 1.2MM    1    C3                           Condensateur tantale CMS, 4.7 µF, 10 V, Série T491, ± 10% 
+ 47                  RES 0603/1608    1    R33                          YAGEO (PHYCOMP)  RC0805FR-0747RL  Résistance à puce CMS, Couche épaisse, 47 ohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%, Série RC 
+ 47k                 RES 0603/1608    4    R15, R16, R19, R20           Résistance à puce CMS, Couche épaisse, 47 kohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%, Série RC 
+ 47u                 CAP 1210/3225 - 2.5MM    1    C19                          Condensateur céramique multicouche CMS, 1210 [3225 Metric], 47 µF, 16 V, ± 20%, X5R, Série GRM 
+ 550mV               microSMA         1    D5                           TAIWAN SEMICONDUCTOR  SS14M  Redresseur Schottky, 40 V, 1 A, Une, MicroSMA, 2 Broche(s), 550 mV 
+ 7,5K                RES 0603/1608    1    R24                          PANASONIC ELECTRONIC COMPONENTS  ERJ6GEYJ752V  Résistance à puce CMS, Couche épaisse, 7.5 kohm, 150 V, 0805 [2012 Metric], 125 mW, ± 5% 
+ 75pf                CAP 0603/1608    1    C20                                               
+ 8.2nf               CAP 0603/1608    1    C22                                               
+ 8MHz                XTAL_HC-49/SM    1    Y1                           MULTICOMP  HC49SM-8-30-50-60-16-ATF  Cristal, 8 MHz, CMS, 11.4mm x 4.65mm, 50 ppm, 16 pF, 30 ppm, Série HC49SM 
+ Actuator            HDR1X2           2    P1_M, P1_S                   Header, 2-Pin        
+ awake               LED 0603/1608 BLUE    1    D1                           LED, Ambre, CMS, 0.8mm x 1.1mm, 5 mA, 1.95 V, 590 nm 
+ BAT                 HDR1X2           1    POWER_IN                     Header, 2-Pin        
+ Circuit Breaker     JUMPER PAD       4    awake, connected, ON, Tx/Rx  Circuit Breaker      
+ connected           LED 0603/1608 BLUE    1    D3                           LED, Bleu, CMS, 0.8mm x 1.6mm, 5 mA, 2.9 V, 470 nm 
+ DRV8838             S-PWSON-N8       2    U1_M, U1_S                   Moteur Driver [H - bridge] 
+ FDN5618P            SOT-23_M         1    Q5                           Transistor MOSFET, Canal P, -1.25 A, -60 V, 170 mohm, -10 V, 20 V 
+ Header 3H           HDR1X3           2    P2_M, P2_S                   WURTH ELEKTRONIK  61300611121  Connecteur carte-à-carte, Vertical, 2.54 mm, 6 Contact(s), Embase, Série WR-PHD, Traversant 
+ Header 6            HDR1X6           1    P3                           Header, 6-Pin        
+ Header 8            7-215460-8       1    COM1                         AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-à-carte, Entrée latérale, 1.27 mm, 8 Contact(s), Embase, Série Micro-MaTch 
+ Header 8            7-215464-8       2    JS3_M, JS3_S                 AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-à-carte, Entrée latérale, 1.27 mm, 8 Contact(s), Embase, Série Micro-MaTch 
+ LED_Red_Blue_Green  SMLP36           1    LED1                         PICOLED, Rouge, Vert, Bleu, CMS, Rectangulaire, R 5mA, G 5mA, B 5mA 
+ LED2                LED 0603/1608 BLUE    1    D4                           LED, Bleu, CMS, 0.8mm x 1.6mm, 5 mA, 2.9 V, 470 nm 
+ MOSFET-N            SOT-23           4    Q1, Q2, Q3, Q4               Transistor MOSFET, Canal N, 200 mA, 60 V, 2.7 ohm, 10 V, 1.2 V 
+ PIC32MX340F512H-80I/PT_1 TSQFP50P1200X1200X120-64N    1    U3                           High Performance 80 MHz MIPS-Based 32-Bit Flash Microcontroller, 512KB Program Memory, 64-pin TQFP 
+ RN4020              RN4020           1    U2                           MICROCHIP  RN4020-V/RM  Module Bluetooth® Low Energy v4.1, 2.4GHz à 2.48GHz, 1 MBPS 
+ SENSOR_1            7-215460-8       1    JS1                          AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-à-carte, Entrée latérale, 1.27 mm, 8 Contact(s), Embase, Série Micro-MaTch 
+ SENSOR_2            7-215460-8       1    JS2                          AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-à-carte, Entrée latérale, 1.27 mm, 8 Contact(s), Embase, Série Micro-MaTch 
+ Shunt, Jumper       HDR1X2           2    W1, W2                       Jumper Socket, Pin Headers, 2 Voies, 1.27 mm 
+ SW-PB               Button           1    S1                           Commutateur tactile, Non lumineux, 12 V, 50 mA, 100 gf, CMS, Série DTSZML-6 
+ TPS54231D           SOIC8            1    U5                           TEXAS INSTRUMENTS  TPS54231D  Régulateur DC/DC à découpage Buck (Step Down), Ajustable, 3.5V-28Vin, 800mV-25Vout, 2Aout, SOIC-8 
+ TS1100              SOT23-5          1    U4                           SILICON LABS  TS1100-25EG5T  Amplificateur de mesure de courant, Précision, 1 amplificateur, SOT-23, 5 Broche(s), -40 °C, 105 °C 
+ Tx/Rx               LED 0603/1608 BLUE    1    D2                           LED, Ambre, CMS, 0.8mm x 1.1mm, 5 mA, 1.95 V, 590 nm 
+ VL6180x             LGA12            2    U6_M, U6_S                   STMICROELECTRONICS  VL6180XV0NR/1  Capteur de proximité, Numérique, 100 mm, LGA, 12 Broche(s), 2.6 V, 3 V 

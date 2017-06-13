@@ -1,0 +1,96 @@
+<?xml version = "1.0" ?>
+<?xml:stylesheet type="text/xsl" href="PCB2.xsl"?>
+<!DOCTYPE GRID [
+  <!ELEMENT GRID (BANDS, COLUMNS, ROWS*)>
+  <!ATTLIST GRID ExportVersion CDATA #REQUIRED>
+  <!ELEMENT BANDS (BAND*)>
+  <!ELEMENT BAND EMPTY>
+  <!ATTLIST BAND Index CDATA #REQUIRED>
+  <!ATTLIST BAND Caption CDATA #IMPLIED>
+  <!ELEMENT COLUMNS (COLUMN*)>
+  <!ELEMENT COLUMN EMPTY>
+  <!ATTLIST COLUMN Name CDATA #REQUIRED>
+  <!ATTLIST COLUMN Caption CDATA #IMPLIED>
+  <!ATTLIST COLUMN Index CDATA #REQUIRED>
+  <!ATTLIST COLUMN BandIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN RowIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN ColIndex CDATA #REQUIRED>
+  <!ATTLIST COLUMN Width CDATA #IMPLIED>
+  <!ELEMENT GROUP (GROUP*, ROW*)>
+  <!ATTLIST GROUP GroupText CDATA #IMPLIED>
+  <!ELEMENT ROWS (ROW*)>
+  <!ELEMENT ROW EMPTY>
+  <!ATTLIST ROW Designator CDATA #IMPLIED>
+  <!ATTLIST ROW Quantity CDATA #IMPLIED>
+  <!ATTLIST ROW Description CDATA #IMPLIED>
+  <!ATTLIST ROW LibRef CDATA #IMPLIED>
+  <!ATTLIST ROW Footprint CDATA #IMPLIED>
+]>
+<GRID ExportVersion="1.0">
+  <BANDS>
+    <BAND Index="0" Caption=""></BAND>
+  </BANDS>
+  <COLUMNS>
+    <COLUMN Name="Designator" Caption="Designator" Index="0" BandIndex="0" RowIndex="0" ColIndex="0" Width="151"></COLUMN>
+    <COLUMN Name="Quantity" Caption="Quantity" Index="1" BandIndex="0" RowIndex="0" ColIndex="1" Width="64"></COLUMN>
+    <COLUMN Name="Description" Caption="Description" Index="2" BandIndex="0" RowIndex="0" ColIndex="2" Width="307"></COLUMN>
+    <COLUMN Name="LibRef" Caption="LibRef" Index="3" BandIndex="0" RowIndex="0" ColIndex="3" Width="57"></COLUMN>
+    <COLUMN Name="Footprint" Caption="Footprint" Index="4" BandIndex="0" RowIndex="0" ColIndex="4" Width="99"></COLUMN>
+  </COLUMNS>
+  <ROWS>
+    <ROW Designator="awake, connected, ON, Tx/Rx" Quantity="4" Description="Circuit Breaker" LibRef="Circuit Breaker" Footprint="JUMPER PAD"></ROW>
+    <ROW Designator="C1_M, C1_S, C2_M, C2_S, C16, C17" Quantity="6" Description="MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH, AVX  08053C104KAT2A  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 25 V, &#177; 10&#37;, X7R" LibRef="Cap" Footprint="CAP 0603/1608"></ROW>
+    <ROW Designator="C3" Quantity="1" Description="Condensateur tantale CMS, 4.7 &#181;F, 10 V, S&#233;rie T491, &#177; 10&#37;" LibRef="Cap Pol2" Footprint="CAP POL 1206/3216 - 1.2MM"></ROW>
+    <ROW Designator="C4, C5, C6, C7, C8, C9, C10, C15, C23_M, C23_S" Quantity="10" Description="MULTICOMP  MCSH21B104K100CT  Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 0.1 &#181;F, 10 V, &#177; 10&#37;, X7R, S&#233;rie MCSH" LibRef="Cap" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="C11, C12" Quantity="2" Description="Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 22 pF, 50 V, &#177; 5&#37;, C0G / NP0" LibRef="Cap" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="C13, C14" Quantity="2" Description="Condensateur c&#233;ramique multicouche CMS, 0805 &#91;2012 Metric&#93;, 27 pF, 50 V, &#177; 5&#37;, C0G / NP0" LibRef="Cap" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="C18" Quantity="1" Description="" LibRef="Cap" Footprint="CAP 0603/1608"></ROW>
+    <ROW Designator="C19" Quantity="1" Description="Condensateur c&#233;ramique multicouche CMS, 1210 &#91;3225 Metric&#93;, 47 &#181;F, 16 V, &#177; 20&#37;, X5R, S&#233;rie GRM" LibRef="Cap" Footprint="CAP 1210/3225 - 2.5MM"></ROW>
+    <ROW Designator="C20" Quantity="1" Description="" LibRef="Cap" Footprint="CAP 0603/1608"></ROW>
+    <ROW Designator="C21" Quantity="1" Description="" LibRef="Cap" Footprint="CAP 0603/1608"></ROW>
+    <ROW Designator="C22" Quantity="1" Description="" LibRef="Cap" Footprint="CAP 0603/1608"></ROW>
+    <ROW Designator="C24_M, C24_S" Quantity="2" Description="WALSIN  0603X475K6R3CT  Condensateur c&#233;ramique multicouche CMS, 0603 &#91;1608 Metric&#93;, 4.7 &#181;F, 6.3 V, &#177; 10&#37;, X5R" LibRef="Cap" Footprint="CAP 0603/1608"></ROW>
+    <ROW Designator="COM1" Quantity="1" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" LibRef="Header 8" Footprint="7-215460-8"></ROW>
+    <ROW Designator="D1" Quantity="1" Description="LED, Ambre, CMS, 0.8mm x 1.1mm, 5 mA, 1.95 V, 590 nm" LibRef="LED2" Footprint="LED 0603/1608 BLUE"></ROW>
+    <ROW Designator="D2" Quantity="1" Description="LED, Ambre, CMS, 0.8mm x 1.1mm, 5 mA, 1.95 V, 590 nm" LibRef="LED2" Footprint="LED 0603/1608 BLUE"></ROW>
+    <ROW Designator="D3" Quantity="1" Description="LED, Bleu, CMS, 0.8mm x 1.6mm, 5 mA, 2.9 V, 470 nm" LibRef="LED2" Footprint="LED 0603/1608 BLUE"></ROW>
+    <ROW Designator="D4" Quantity="1" Description="LED, Bleu, CMS, 0.8mm x 1.6mm, 5 mA, 2.9 V, 470 nm" LibRef="LED2" Footprint="LED 0603/1608 BLUE"></ROW>
+    <ROW Designator="D5" Quantity="1" Description="TAIWAN SEMICONDUCTOR  SS14M  Redresseur Schottky, 40 V, 1 A, Une, MicroSMA, 2 Broche&#40;s&#41;, 550 mV" LibRef="schottky" Footprint="microSMA"></ROW>
+    <ROW Designator="JS1" Quantity="1" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" LibRef="Header 8" Footprint="7-215460-8"></ROW>
+    <ROW Designator="JS2" Quantity="1" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" LibRef="Header 8" Footprint="7-215460-8"></ROW>
+    <ROW Designator="JS3_M, JS3_S" Quantity="2" Description="AMP - TE CONNECTIVITY  7-215460-8  Connecteur carte-&#224;-carte, Entr&#233;e lat&#233;rale, 1.27 mm, 8 Contact&#40;s&#41;, Embase, S&#233;rie Micro-MaTch" LibRef="Header 8" Footprint="7-215464-8"></ROW>
+    <ROW Designator="L1" Quantity="1" Description="BOURNS  SRN6045-150M  Inductance de puissance CMS, 15 &#181;H, 1.9 A, 2.3 A, Blind&#233;, 0.0958 ohm" LibRef="Inductor" Footprint="SRN6045-3R3Y"></ROW>
+    <ROW Designator="LED1" Quantity="1" Description="PICOLED, Rouge, Vert, Bleu, CMS, Rectangulaire, R 5mA, G 5mA, B 5mA" LibRef="LED_Red_Blue_Green" Footprint="SMLP36"></ROW>
+    <ROW Designator="P1_M, P1_S" Quantity="2" Description="Header, 2-Pin" LibRef="Header 2" Footprint="HDR1X2"></ROW>
+    <ROW Designator="P2_M, P2_S" Quantity="2" Description="WURTH ELEKTRONIK  61300611121  Connecteur carte-&#224;-carte, Vertical, 2.54 mm, 6 Contact&#40;s&#41;, Embase, S&#233;rie WR-PHD, Traversant" LibRef="Header 3H" Footprint="HDR1X3"></ROW>
+    <ROW Designator="P3" Quantity="1" Description="Header, 6-Pin" LibRef="Header 6" Footprint="HDR1X6"></ROW>
+    <ROW Designator="POWER_IN" Quantity="1" Description="Header, 2-Pin" LibRef="Header 2" Footprint="HDR1X2"></ROW>
+    <ROW Designator="Q1, Q2, Q3, Q4" Quantity="4" Description="Transistor MOSFET, Canal N, 200 mA, 60 V, 2.7 ohm, 10 V, 1.2 V" LibRef="MOSFET-N" Footprint="SOT-23"></ROW>
+    <ROW Designator="Q5" Quantity="1" Description="Transistor MOSFET, Canal P, -1.25 A, -60 V, 170 mohm, -10 V, 20 V" LibRef="MOSFET-P" Footprint="SOT-23_M"></ROW>
+    <ROW Designator="R1, R2, R35" Quantity="3" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-07220RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 220 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R3, R26, R34" Quantity="3" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-0722RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 22 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC, &#91;NoValue&#93;, YAGEO &#40;PHYCOMP&#41;  RC0805FR-0722RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 22 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R4, R5, R6, R7, R8, R9, R11, R12, R13, R14, R28" Quantity="11" Description="R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805, &#91;NoValue&#93;" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R10" Quantity="1" Description="ARCOL/OHMITE  ACPP0805330RBE  R&#233;sistance &#224; puce CMS, Passiv&#233;e de pr&#233;cision, 330 ohm, 100 V, 0805 &#91;2012 Metric&#93;, 100 mW, &#177; 0.1&#37;" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R15, R16, R19, R20" Quantity="4" Description="R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 47 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R17, R18, R21, R22" Quantity="4" Description="R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 4.7 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 5&#37;, S&#233;rie RC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R23, R30" Quantity="2" Description="MULTICOMP  MC0805S8F0000T5E  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 0 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie MC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R24" Quantity="1" Description="PANASONIC ELECTRONIC COMPONENTS  ERJ6GEYJ752V  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 7.5 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 5&#37;" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R25" Quantity="1" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-0710KL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 10 kohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R27" Quantity="1" Description="" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R29" Quantity="1" Description="" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R31" Quantity="1" Description="" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R32" Quantity="1" Description="" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="R33" Quantity="1" Description="YAGEO &#40;PHYCOMP&#41;  RC0805FR-0747RL  R&#233;sistance &#224; puce CMS, Couche &#233;paisse, 47 ohm, 150 V, 0805 &#91;2012 Metric&#93;, 125 mW, &#177; 1&#37;, S&#233;rie RC" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="RSENSE1" Quantity="1" Description="SUSUMU  RL1220S-R20-F  R&#233;sistance CMS de d&#233;tection de courant, 0.2 ohm, 250 mW, 0805 &#91;2012 Metric&#93;, &#177; 1&#37;, S&#233;rie RL" LibRef="Res2" Footprint="RES 0603/1608"></ROW>
+    <ROW Designator="S1" Quantity="1" Description="Commutateur tactile, Non lumineux, 12 V, 50 mA, 100 gf, CMS, S&#233;rie DTSZML-6" LibRef="SW-PB" Footprint="Button"></ROW>
+    <ROW Designator="U1_M, U1_S" Quantity="2" Description="Moteur Driver &#91;H - bridge&#93;" LibRef="DRV8838" Footprint="S-PWSON-N8"></ROW>
+    <ROW Designator="U2" Quantity="1" Description="MICROCHIP  RN4020-V/RM  Module Bluetooth&#174; Low Energy v4.1, 2.4GHz &#224; 2.48GHz, 1 MBPS" LibRef="RN4020" Footprint="RN4020"></ROW>
+    <ROW Designator="U3" Quantity="1" Description="High Performance 80 MHz MIPS-Based 32-Bit Flash Microcontroller, 512KB Program Memory, 64-pin TQFP" LibRef="PIC32MX340F512H-80I/PT_1" Footprint="TSQFP50P1200X1200X120-64N"></ROW>
+    <ROW Designator="U4" Quantity="1" Description="SILICON LABS  TS1100-25EG5T  Amplificateur de mesure de courant, Pr&#233;cision, 1 amplificateur, SOT-23, 5 Broche&#40;s&#41;, -40 &#176;C, 105 &#176;C" LibRef="TS1100" Footprint="SOT23-5"></ROW>
+    <ROW Designator="U5" Quantity="1" Description="TEXAS INSTRUMENTS  TPS54231D  R&#233;gulateur DC/DC &#224; d&#233;coupage Buck &#40;Step Down&#41;, Ajustable, 3.5V-28Vin, 800mV-25Vout, 2Aout, SOIC-8" LibRef="TPS54231D" Footprint="SOIC8"></ROW>
+    <ROW Designator="U6_M, U6_S" Quantity="2" Description="STMICROELECTRONICS  VL6180XV0NR/1  Capteur de proximit&#233;, Num&#233;rique, 100 mm, LGA, 12 Broche&#40;s&#41;, 2.6 V, 3 V" LibRef="VL6180x" Footprint="LGA12"></ROW>
+    <ROW Designator="W1, W2" Quantity="2" Description="Jumper Socket, Pin Headers, 2 Voies, 1.27 mm" LibRef="Jumper" Footprint="HDR1X2"></ROW>
+    <ROW Designator="Y1" Quantity="1" Description="MULTICOMP  HC49SM-8-30-50-60-16-ATF  Cristal, 8 MHz, CMS, 11.4mm x 4.65mm, 50 ppm, 16 pF, 30 ppm, S&#233;rie HC49SM" LibRef="XTAL" Footprint="XTAL_HC-49/SM"></ROW>
+    <ROW Designator="Y2" Quantity="1" Description="ABRACON  AB26T-32.768KHZ  Cristal, 32.768 kHz, Cylindrique radial, diam&#232;tre 6.2mm x 2.1mm, 12.5 pF, 20 ppm, S&#233;rie AB26T" LibRef="XTAL" Footprint="XTAL_AB26T"></ROW>
+  </ROWS>
+</GRID>
