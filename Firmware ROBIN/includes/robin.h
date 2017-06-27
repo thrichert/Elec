@@ -57,5 +57,10 @@ void	sensor_level(void);
 void	sensor_power(void);
 void	led(void);
 
+/* Configuration Func */
+
+void	init_ADC();
+void	init_HBridge();
+
 	
 #endif

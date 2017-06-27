@@ -3,7 +3,7 @@
 /*
 ** Finite-State-Machine to drive Robin modules :
 **	- intqueue : FIFO structure of module interrupts
-**	- robinstate : state with  action to commit
+**	- robinstate : state with action to commit
 */
 
 static t_input		g_input[] = 
@@ -35,7 +35,7 @@ int			main(void)
 	int		i = -1;
 	int		j;
 
-
+	Configure_All();
 	robin = READY;	
 	intqueue[++i] = EMPTY;
 
