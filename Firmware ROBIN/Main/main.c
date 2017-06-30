@@ -8,7 +8,6 @@
 
 static t_input		g_input[] = 
 {
-	{UART_RD, &read_uart},
 	{I2C_RD, &read_i2c},
 	{END_INT, NULL},
 };
@@ -16,13 +15,18 @@ static t_input		g_input[] =
 static	t_module	g_module[] =
 {
 	{BLUETOOTH, &bluetooth},
-	{SENSOR_FP1, &sensor_fp1},
-	{SENSOR_FP2, &sensor_fp2},
-	{SENSOR_LEVEL, &sensor_level},
-	{SENSOR_POWER, &sensor_power},
 	{LED, &led},
 	{END_ROBIN, NULL},
 };
+
+
+// Actions :
+// - inform soap
+// - inform elec
+// - open/close pompe peristaltique
+// - open/close EV
+// - flash LED
+@
 
 int			main(void)
 {
@@ -75,6 +79,5 @@ int			main(void)
 		// going to sleep
 		sleep(1);
 	}
-
 	return (0);
 }
