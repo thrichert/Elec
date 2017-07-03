@@ -13,9 +13,11 @@ char	security_state;
 char	info;
 
 
-void	init_ADC();
-void	init_HBridge();
-void	init_UART();	
+void	init_ADC(void);
+void	init_HBridge(void);
+void	init_UART(void);
+void	init_WDT(void);
+void	init_I2C(void);
 
 void	configure_all(void);
 void	timer_check(void);

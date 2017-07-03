@@ -21,7 +21,6 @@ void    init_ADC(void)
     // Set interrupt after 2 conversions
     AD1CON2bits.SMPI = 1;
 
-
     //Set TMR3 period to 125ms
     TMR3 = 0;
     PR3 = 62499;
