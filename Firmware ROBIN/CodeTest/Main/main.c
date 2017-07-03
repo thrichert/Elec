@@ -63,21 +63,21 @@ int			main(void)
 		{
 			//intqueue to get robin state
 	
-			j = -1;
+/*			j = -1;
 			while (g_input[++j].intflag != END_INT)
 				if (intqueue[i] == g_input[j].intflag)
 					robin = g_input[j].read();
 
 			//action to commit
-
+*/
+	
 			intqueue[i--] = 0;
 			j = -1;
 			while (g_module[++j].robinstate != END_ROBIN)
 				if (robin == g_module[j].robinstate)
 					g_module[j].module();
 		}
-		// going to sleep
-		sleep(1);
+		goto_sleep(void);
 	}
 	return (0);
 }

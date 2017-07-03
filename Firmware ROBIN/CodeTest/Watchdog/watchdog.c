@@ -114,7 +114,7 @@ int         main(void)
     
     if (RCONbits.IDLE)
    {
-//        TRISFbits.TRISF1 = 0;
+        TRISFbits.TRISF1 = 0;
         LATFbits.LATF1 = 1;
         asm volatile ("eret");
     }

@@ -2,9 +2,10 @@
 #include "header.h"
 
 /* Calculate Baud Rate Config register */
-#define PBUS_CLOCK   (8000000ul)
-#define UBRG(baud) (((PBUS_CLOCK)/16/(baud)-1))
-#define UART1_BAUD           9600
+
+#define PBUS_CLOCK	(8000000ul)
+#define UBRG(baud) 	(((PBUS_CLOCK)/16/(baud)-1))
+#define UART1_BAUD	9600
 
 void	OpenUART(void)
 {
