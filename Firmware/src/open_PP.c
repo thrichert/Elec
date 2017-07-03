@@ -1,7 +1,7 @@
 #include "robin.h"
 #include <xc.h>
 
-void	goto_sleep(void)
-(
- 	;
+void	open_PP(void)
+{
+	;
 }

@@ -8,8 +8,8 @@ int	main(void)
 	{
 		while (1)
 		{
-			timer_check();
 			ask_sensors();
+			timer_check();
 			if (user_water || user_soap)
 				service();
 			if (info)
@@ -18,8 +18,9 @@ int	main(void)
 				break;
 		}
 		goto_sleep();
-		flush_timer++:
+		flush_timer++;
 		security_timer++;	
+		comfort_timer++;
 	}
 	return (0);
 }

@@ -1,0 +1,140 @@
+src/config.c:4:9: error: unknown pragma ignored [-Werror,-Wunknown-pragmas]
+#pragma config WDTCONT = ON
+        ^
+src/config.c:5:9: error: unknown pragma ignored [-Werror,-Wunknown-pragmas]
+src/check_soap.c:7:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]
+}
+^
+#pragma config WDTPS = PS1024
+        ^
+src/config.c:8:9: error: unknown pragma ignored [-Werror,-Wunknown-pragmas]
+#pragma config POSCMOD = EC
+        ^
+src/config.c:10:9: error: unknown pragma ignored [-Werror,-Wunknown-pragmas]
+#pragma config FNOSC = PRIPLL // oscillator selection bits --> primary oscillator
+        ^
+src/config.c:11:9: error: unknown pragma ignored [-Werror,-Wunknown-pragmas]
+1 error generated.
+#pragma config FPBDIV = DIV_1  
+        ^
+5 errors generated.
+src/goto_sleep.c:6:3: error: expected parameter declarator
+        ;
+        ^
+src/goto_sleep.c:6:3: error: expected ')'
+src/goto_sleep.c:5:1: note: to match this '('
+(
+^
+src/goto_sleep.c:4:16: error: function cannot return function type 'void ()'
+void    goto_sleep(void)
+                  ^
+src/goto_sleep.c:7:1: error: extraneous closing brace ('}')
+}
+^
+4 errors generated.
+src/configure_all.c:8:12: error: expected ';' after expression
+        init_WDT()
+                  ^
+                  ;
+src/configure_all.c:9:12: error: expected ';' after expression
+        init_I2C()
+                  ^
+                  ;
+src/configure_all.c:10:2: error: implicit declaration of function 'init_Hbridge' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+        init_Hbridge();
+        ^
+src/configure_all.c:10:2: note: did you mean 'init_HBridge'?
+includes/robin.h:17:6: note: 'init_HBridge' declared here
+void    init_HBridge(void);
+        ^
+src/configure_all.c:11:2: error: implicit declaration of function 'open_EV' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+        open_EV();
+        ^
+src/configure_all.c:12:2: error: implicit declaration of function 'close_EV' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+        close_EV();
+        ^
+5 errors generated.
+src/inform.c:6:13: error: use of undeclared identifier 'ENERGY'
+        if (info & ENERGY)
+                   ^
+src/inform.c:8:13: error: use of undeclared identifier 'SOAP'
+        if (info & SOAP) 
+                   ^
+src/inform.c:9:7: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+                led(1);
+                    ^
+includes/robin.h:30:16: note: passing argument to parameter 'msg' here
+void    led(char *msg);
+                  ^
+make[1]: *** [objs/goto_sleep.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [objs/configure_all.o] Error 1
+make[1]: *** [objs/config.o] Error 1
+make[1]: *** [objs/check_soap.o] Error 1
+src/inform.c:10:13: error: use of undeclared identifier 'ENERGY'
+        if (info & ENERGY)
+                   ^
+src/inform.c:12:13: error: use of undeclared identifier 'SOAP'
+        if (info & SOAP)
+                   ^
+src/inform.c:13:13: error: incompatible integer to pointer conversion passing 'int' to parameter of type 'char *' [-Werror,-Wint-conversion]
+                bluetooth(1);
+                          ^
+includes/robin.h:31:22: note: passing argument to parameter 'msg' here
+void    bluetooth(char *msg);
+                        ^
+src/inform.c:14:13: error: use of undeclared identifier 'ENERGY'
+        if (info & ENERGY)
+                   ^
+7 errors generated.
+make[1]: *** [objs/inform.o] Error 1
+src/init_ADC.c:7:5: error: use of undeclared identifier 'AD1PCFGbits'
+    AD1PCFGbits.PCFG2 = 0;
+    ^
+src/init_ADC.c:10:5: error: use of undeclared identifier 'AD1CON1bits'
+    AD1CON1bits.SSRC = 10;
+    ^
+src/init_ADC.c:13:5: error: use of undeclared identifier 'AD1CHSbits'
+    AD1CHSbits.CH0SA = 100;
+    ^
+src/init_ADC.c:16:5: error: use of undeclared identifier 'AD1CSSLbits'
+    AD1CSSLbits.CSSL = 0;
+    ^
+src/init_ADC.c:19:5: error: use of undeclared identifier 'AD1CON3bits'
+    AD1CON3bits.ADCS = 0;
+    ^
+src/init_ADC.c:22:5: error: use of undeclared identifier 'AD1CON2bits'
+    AD1CON2bits.SMPI = 1;
+    ^
+src/init_ADC.c:25:5: error: use of undeclared identifier 'TMR3'
+    TMR3 = 0;
+    ^
+src/init_ADC.c:26:5: error: use of undeclared identifier 'PR3'
+    PR3 = 62499;
+    ^
+src/init_ADC.c:27:5: error: use of undeclared identifier 'T3CONbits'
+    T3CONbits.TCKPS = 1;
+    ^
+9 errors generated.
+make[1]: *** [objs/init_ADC.o] Error 1
+src/init_HBrdige.c:10:5: error: use of undeclared identifier 'TRISEbits'
+    NSLEEP_CONFIG = 0;
+    ^
+src/init_HBrdige.c:4:25: note: expanded from macro 'NSLEEP_CONFIG'
+#define NSLEEP_CONFIG   TRISEbits.TRISE1
+                        ^
+src/init_HBrdige.c:11:5: error: use of undeclared identifier 'TRISEbits'
+    PH_CONFIG = 0;
+    ^
+src/init_HBrdige.c:5:25: note: expanded from macro 'PH_CONFIG'
+#define PH_CONFIG       TRISEbits.TRISE2
+                        ^
+src/init_HBrdige.c:12:5: error: use of undeclared identifier 'TRISEbits'
+    EN_CONFIG = 0;
+    ^
+src/init_HBrdige.c:6:25: note: expanded from macro 'EN_CONFIG'
+#define EN_CONFIG       TRISEbits.TRISE3
+                        ^
+3 errors generated.
+make[1]: *** [objs/init_HBrdige.o] Error 1
+make: *** [all] Error 2
