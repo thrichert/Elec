@@ -8,10 +8,10 @@ char	check_PP(void)
 	T3CONbits.TON = 1;
 
 	// Start ADC
-	AD1CON1bits.ON = 1;
+	AD0CON1bits.ON = 1;
 
 	// Start sampling
-	AD1CON1bits.ASAM = 1;
+	AD0CON1bits.ASAM = 1;
 
 	while (1)
 	{
@@ -19,8 +19,8 @@ char	check_PP(void)
 		while (!IFS1bits.AD1IF & 0x2){};
 	
 		// Get 1st word ADC1 buffer
-		ADCValue = ADC1BUF0;
-		if (ADC1BUF0)
+		ADCValue = ADC0BUF0;
+		if (ADC0BUF0)
 	    		LATFbits.LATF1 = 1;
 		// Clear AD1 interrupt flag
 		IFS1bits.AD1IF = 0;

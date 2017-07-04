@@ -5,14 +5,14 @@ void	close_EV(void)
 {
 	int	count;
 
-	NSLEEP = 1;
+	NSLEEP_EV = 1;
 	count = 0;
 	while (count++ < 5000);
-	PH = 0;
-	EN = 1;
+	PH_EV = 0;
+	EN_EV = 1;
 	count = 0;
 	while(count++ < 10000);
-	EN = 0;
+	EN_EV = 0;
 	count = 0;
-	NSLEEP = 0;
+	NSLEEP_EV = 0;
 }

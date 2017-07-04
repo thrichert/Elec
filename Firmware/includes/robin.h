@@ -1,9 +1,21 @@
 #ifndef ROBIN_H
 # define ROBIN_H
 
-#define NSLEEP		LATEbits.LATE1
-#define PH		LATEbits.LATE2
-#define EN		LATEbits.LATE3
+#define NSLEEP_EV		LATEbits.LATE0
+#define PH_EV			LATEbits.LATE1
+#define EN_EV			LATEbits.LATE2
+
+#define NSLEEP_PP		LATEbits.LATE3
+#define PH_PP			LATEbits.LATE4
+#define EN_PP			LATEbits.LATE5
+
+#define NSLEEP_EV_CONFIG	TRISEbits.TRISE0
+#define PH_EV_CONFIG		TRISEbits.TRISE1
+#define EN_EV_CONFIG		TRISEbits.TRISE2
+
+#define NSLEEP_PP_CONFIG	TRISEbits.TRISE3
+#define PH_PP_CONFIG		TRISEbits.TRISE4
+#define EN_PP_CONFIG		TRISEbits.TRISE5
 
 #define	ENERGY_EV	1 << 0
 #define ENERGY_PP	1 << 1
@@ -19,9 +31,9 @@ int	flush_timer;
 char	security_state;
 char	info;
 
-
 void	init_ADC(void);
-void	init_HBridge(void);
+void	init_EV(void);
+void	init_PP(void);
 void	init_UART(void);
 void	init_WDT(void);
 void	init_I2C(void);

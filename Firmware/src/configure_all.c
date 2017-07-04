@@ -3,13 +3,19 @@
 
 void	configure_all(void)
 {
-	init_ADC();
+	init_ADC0();
+	init_ADC1();
 	init_UART();
 	init_WDT();
 	init_I2C();
-	init_HBridge();
+	init_EV();
+	init_PP();
+
 	open_EV();
 	close_EV();
+
+	open_PP();
+	close_PP();
 	//sensor calibration
 	
 	user_water = 0;
