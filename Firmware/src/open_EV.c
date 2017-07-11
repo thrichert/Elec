@@ -3,16 +3,11 @@
 
 void	open_EV(void)
 {
-	int	count;
-
 	NSLEEP_EV = 1;
-	count = 0;
-	while (count++ < 5000);
+	delay_16ms();
 	PH_EV = 1;
 	EN_EV = 1;
-	count = 0;
-	while (count++ < 10000);
+	delay_16ms();
 	EN_EV = 0;
-	count = 0;
 	NSLEEP_EV = 0;
 }

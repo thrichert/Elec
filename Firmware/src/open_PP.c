@@ -3,16 +3,11 @@
 
 void	open_PP(void)
 {
-	int	count;
-	
 	NSLEEP_PP = 1;
-	count = 0;
-	while (count++ < 5000);
+	delay_16ms();
 	PH_PP = 1;
 	EN_PP = 1;
-	count = 0;
-	while (count++ < 10000);
+	delay_16ms();
 	EN_PP = 0;
-	count = 0;
 	NSLEEP_PP = 0;
 }
